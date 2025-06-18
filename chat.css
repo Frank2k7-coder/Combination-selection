@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  
+}
+
+.sidebar {
+  width: 400px;
+  height:120%;
+  background-color: #f7f7f7;
+  padding: 40px;
+  border-right: 1px solid #ddd;
+}
+.icons-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left:30px;
+  width:150px;
+}
+i{
+  font-size: 20px;
+  color: rgba(90,98,74,4);
+  cursor: pointer;
+  margin-right: 10px;
+}
+h2{
+  font-size:15px;
+  
+  
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile h2 {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.notifications {
+  margin-top: 20px;
+
+}
+
+.notifications p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.notifications ul {
+  list-style-type: none;
+  color: #333;
+}
+
+.notifications li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.message-box {
+  text-align: center;
+}
+
+.message-box h3 {
+  margin-bottom: 10px;
+}
+
+.message-box p {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
