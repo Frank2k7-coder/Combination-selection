@@ -1,0 +1,67 @@
+
+button {
+  padding: 10px 20px;
+  background-color: #b22222;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c71585;
+}
+
+.grid-container {
+  display: grid;
+  height: 200px;
+  border-radius: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: #4caf50;
+  padding: 20px;
+  text-align: center;
+}
+
+.input {
+  width: 400px;
+  height: 40px;
+}
+
+label {
+  margin-right: 10px;
+  text-align: center;
+}
+
+.combination-info {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #6b54ab;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.combination-info input,
+.combination-info textarea,
+.combination-info select {
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  margin-right: 200px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+
+footer {
+  background-color: #b22222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
