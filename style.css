@@ -1,0 +1,92 @@
+body{
+  background-image:url("https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:beige;
+
+}
+.nav a {
+  padding: 15px;
+  font-size: 20px;
+  color:peachpuff;
+  display: inline-block;
+.nav {
+  background-color:
+}
+    
+}
+.container {
+  border-radius: 12px; 
+  backdrop-filter: blur(5px);
+
+  width: 400px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); 
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top:10%;
+  padding: 20px;
+} 
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"],
+input [type="file"]{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 10px 5px;
+    font-size: 20px;
+    font-family: "Outfit";
+  }
+  
+  input[type="radio"] {
+      width: auto;
+      height: auto;
+      margin-right: 5px;
+      accent-color: blue; /* optional: change color in supported browsers */
+  }
+
+  label{
+    font-family:mediumaquamarine;
+    font-size: 20px;
+  }
+select{
+  width: 90%;
+  height: 50px; 
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+  padding: 0 15px; 
+  font-size: 16px;
+}
+.container button {
+  margin-top: 20px;
+  margin-left: 35%;
+
+  background: white;
+  color: #032868;
+  font-weight: bold;
+  border-radius: 25px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  font-family: "Outfit";
+}
+.container button:hover {
+  background: #6e3eb6; 
+  color: white;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(2); 
+}
+a{
+  color: #7ea1dd;
+  font-weight: bold;
+  font-family: "Outfit";
+  text-decoration: none;
+  font-size: 20px;
+}
