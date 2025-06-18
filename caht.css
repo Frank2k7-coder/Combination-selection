@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+background-image:url("https://www.shutterstock.com/image-photo/digital-brain-circuit-ai-cocept-600nw-2498421665.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.chat-container {
+  background-filter: blur(10px);
+  max-width: 600px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.chat-header {
+  backdrop-filter: blur(10px);
+  
+  display: flex;
+  justify-content: space-between
+  align-items: center;
+  padding: 10px;
+
+  border-radius: 10px;
+}
+
+.avatar {
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 20%;
+}
+
+.chat-messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  backdrop-filter: blur(5px);
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.bot-message, .user-message {
+  margin: 5px 0;
+  padding: 8px;
+  background: #2a2a2a;
+  border-radius: 8px;
+}
+
+.user-message {
+  background:rgb(140,48,89)
+  align-self: flex-end;
+  text-align: right;
+}
+
+.chat-input {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #2a2a2a;
+  color: white;
+}
+
+.chat-input button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: white;
+  color: rgba(90,80,100,90);
+  cursor: pointer;
+}
+
+.quick-replies {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.quick-replies button {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.admin-contact {
+  text-align: center;
+  margin-top: 10px;
+}
